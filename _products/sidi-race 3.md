@@ -1,9 +1,9 @@
 ---
-name: Sidi Race schoenen zonder spatje regen
-price: "50,00"
+name: Sidi Race schoenen
+price: 50,00€
 slug: sidi-race
-status: gebruikt, in uitstekende staat
-image: http://placehold.it/450x450
+status: gebruikt
+image: http://placehold.it/350x350
 layout: productdetails
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper ante non vehicula eleifend.

@@ -3,9 +3,9 @@ title: "Igloo's Garage Sale"
 email: igloosarecool@me.com
 description: Tijd om mijn garage eens op te ruimen.
 #baseurl: "/garage-sale" # the subpath of your site, e.g. /blog/
-#url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://igloosarecool.github.io" # the base hostname & protocol for your site
 twitter_username: igloosarecool
-github_username:  VIAAbart
+github_username:  igloosarecool
 api_key: 
 
 # Build settings

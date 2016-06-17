@@ -1,0 +1,40 @@
+// Site specific styles
+// ---------------------------------------/
+
+@font-face { 
+  font-family: 'Foundation Icons'; 
+  src: url('/assets/fonts/foundation-icons.woff') format('woff');
+}
+
+body {
+  font-family: Roboto;
+  color: rgb(38,36,37);
+}
+
+.social, .social a {
+  font-family: 'Foundation Icons';
+  color: inherit;
+}
+
+h1.title a {
+  font-size: 4rem;
+  font-decoration: none;
+  color: rgb(38,36,37);
+}
+
+h1, h2 {
+  font-family: 'PT Sans Narrow';
+  
+}
+
+footer {
+  margin-top: 4rem;
+  padding-top: 2rem;
+  background-color: rgb(21,56,68);
+  color: rgb(242,242,242);
+}
+
+@media all and (min-width: 40em) {
+.pl2 { padding-left: 1rem;}
+.product-name {margin-top:0;}
+}
