@@ -1,7 +1,11 @@
 ---
 layout: products
-title: Store
+title: Home
 ---
+<div class="clearfix border">
 {% for product in site.products %}
-  {% include product.html %}
+  <div class="sm-col sm-col-6 md-col-4 lg-col-3 border">
+    {% include product.html %}
+  </div>
 {% endfor %}
+</div>

@@ -1,9 +1,9 @@
 ---
-name: Rework
-price: 39.99
-slug: rework
-sku: SW
-image: http://d.gr-assets.com/books/1391275636l/6732019.jpg
+name: Sidi Race schoenen
+price: 50,00€
+slug: sidi-race
+status: gebruikt
+image: http://placehold.it/350x350
 layout: productdetails
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper ante non vehicula eleifend.

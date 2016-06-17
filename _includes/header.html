@@ -1,17 +1,17 @@
 <header class="site-header">
 
-  <div class="wrapper">
+  <div class="clearfix border-box border py2">
 
-    <a class="site-title" href="/">{{ site.title }}</a>
-
-    <nav class="site-nav">
+    <div class="sm-col-12"><a class="site-title" href="/">{{ site.title }}</a></div>
+    <div class="sm-col-12 border">
+      <nav class="site-nav">
       {% for page in site.pages %}
-        {% if page.title %}
-        <a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
-        {% endif %}
+          {% if page.title %}
+          <a class="page-link" href="{{ page.url }}">{{ page.title }}</a>
+          {% endif %}
       {% endfor %}
-    </nav>
-
+      </nav>
+    </div>
   </div>
 
 </header>
