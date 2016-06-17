@@ -1,11 +1,18 @@
 # Site settings
-title: "Jekyll Boilerplate"
-description: "site description goes here"
-
-url: "http://yourdomain.com"
+title: "Igloo's Garage Sale"
+email: igloosarecool@me.com
+description: Tijd om mijn garage eens op te ruimen.
+#baseurl: "/garage-sale" # the subpath of your site, e.g. /blog/
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: igloosarecool
+github_username:  VIAAbart
+api_key: 
 
 # Build settings
 markdown: kramdown
+collections:
+  products:
+    output: true
 sass:
   sass_dir: _sass
   style: compressed
