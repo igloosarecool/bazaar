@@ -1,8 +1,10 @@
 <script>
     var contactForm = document.querySelector('form'),
     inputEmail = contactForm.querySelector('[name="email"]'),
+    subject = contactForm.querySelector('[name="subject"]')
     textAreaMessage = contactForm.querySelector('[name="content"]'),
-    sendButton = contactForm.querySelector('button');
+    sendButton = contactForm.querySelector('[type="submit"]'),
+    closeButton = contactForm.querySelector('[data-modal="close"]');
     sendButton.addEventListener('click', function(event){
       event.preventDefault();
       sendButton.innerHTML = '{{ site.text.contact.ajax.sending }}';
@@ -11,15 +13,20 @@
       xhr.setRequestHeader("Accept", "application/json")
       xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
       xhr.send(
-        "email=" + inputEmail.value +
+        "subject=" + subject.value +
+        "&email=" + inputEmail.value +
         "&message=" + textAreaMessage.value);
       xhr.onloadend = function (res) {
         if (res.target.status === 200){
           sendButton.innerHTML = '{{ site.text.contact.ajax.sent }}';
+          closeButton.innerHTML = 'x Sluiten';
         }
         else {
           sendButton.innerHTML = '{{ site.text.contact.ajax.error }}';
         }
       }
     });
+    
+   $("#contactform").validate();
+    
 </script>

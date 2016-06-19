@@ -19,11 +19,11 @@ sass:
 # text labels and placeholders
 text:
   contact:
-    email:    'E-mailadres'
-    content:  'What would you like to say?'
+    email:    'jouw@emailadres.com'
+    content:  'jouw bericht'
     subject:  'Nieuw bericht van de Bazaar'
     submit:   'Verzenden'
     ajax:
-      sending:  'bezig ...'
+      sending:  'Bezig ...'
       sent:     'Bericht verzonden!'
       error:    'Fout!'
