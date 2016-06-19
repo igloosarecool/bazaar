@@ -4,19 +4,39 @@ head:
   - twittercard.html
   - ogtags.html
 ---
+<h2 class="product-name">{{ page.name }}</h2>
+
 <div class="product-details clearfix">
   <div class="sm-col sm-col-6">
     <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
   </div>
   <div class="sm-col sm-col-6 product-description pl2">
-    <h2 class="product-name">{{ page.name }}</h2>
-    <p class="h6 italic">Staat: {{page.status}}
-    <p>
-      {{ page.content }}
-    </p>
-
-    <button class="btn btn-primary mb1 bg-blue regular">
-      Vraagprijs {{ page.price }} €
-    </button>
+    <div class="flex flex-baseline">
+      <div class="flex-auto">
+        <h3 class="h1">{{ page.price }}€</h3>
+      </div>
+      <div>
+        <button class="btn btn-primary mb1 bg-blue regular">
+          Kopen of bod doen
+        </button>
+      </div>
+    </div>
+    
+    <p class="h6 italic">{{page.status}}</p>
+    {{ page.excerpt }}
+    <ul>
+      <li>Merk: {{page.brand}}</li>
+      <li>Jaar: {{page.year}}</li>
+      <li>Maat: {{page.size}}</li>
+      <li>Kleur: {{page.color}}</li>
+      <li>Nieuwprijs: {{page.rrp}}€</li>
+    </ul>
   </div>
+
+  <div class="sm-col sm-col-12 product-description mt2">
+    {{ page.content | remove_first:page.excerpt }}
+
+  
+  </div>
+
 </div>

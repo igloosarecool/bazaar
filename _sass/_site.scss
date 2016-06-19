@@ -22,9 +22,8 @@ h1.title a {
   color: rgb(38,36,37);
 }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'PT Sans Narrow';
-  
 }
 
 footer {
@@ -36,5 +35,8 @@ footer {
 
 @media all and (min-width: 40em) {
 .pl2 { padding-left: 1rem;}
-.product-name {margin-top:0;}
+h2.product-name {margin-top:0;font-size: 3rem;}
+}
+@media all and (max-width: 40em) {
+h1.title {margin:-4rem 0;}
 }

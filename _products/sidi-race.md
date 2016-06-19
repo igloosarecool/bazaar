@@ -1,11 +1,24 @@
 ---
-name: Sidi Race schoenen zonder spatje regen
+name: Sidi Genius 5 Lorica Race schoenen
 price: "50,00"
+rrp: "169,95"
+year: 2008
+size: 43 (M)
+brand: Sidi
+color: zwart/zilver
 slug: sidi-race
-status: gebruikt, in uitstekende staat
-image: http://placehold.it/450x450
+status: gebruikt, in zeer goede staat
+image: https://dl.dropboxusercontent.com/u/54388277/cdn/images/sidi-genius.jpg
 layout: productdetails
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper ante non vehicula eleifend.
-Phasellus ut feugiat tellus, vitae malesuada mi. Sed placerat ultrices enim, id fermentum ante tincidunt nec.
-Nulla ut mi bibendum, sodales ex ut, tempor odio. Mauris finibus elit eget ornare efficitur. Fusce a mauris vitae lorem.
+Sidi's most popular road shoe. Conservative, yet stylish, with features that will make you think they flew in to measure your foot and make the shoe only for you
+
+Features:
+Sole: Millenium II
+Closure: Soft Arch Compression Strap, Ultra SL Buckle,
+and two High Security Velcro straps
+Other Features: Padded Tongue w/fit relievers
+distributes pressure without bunching up, Molded plastic
+heel cup, Replaceable Heel Tab
+Color: Black Perforated Loricas
+
