@@ -18,7 +18,7 @@
   visibility: hidden; 
   opacity: 0; 
   z-index: 100;
-  margin: 1rem;
+  //padding: 1rem;
 }
 
 .modal-content { 
@@ -36,4 +36,10 @@
 .modal-opened { 
   opacity: 1; 
   visibility: visible;
+}
+
+@media all and (max-width: 40em) {
+  .modal-content { 
+    top: 0;
+  }
 }
