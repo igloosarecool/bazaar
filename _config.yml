@@ -15,3 +15,15 @@ collections:
 sass:
   sass_dir: _sass
   style: compressed
+  
+# text labels and placeholders
+text:
+  contact:
+    email:    'E-mailadres'
+    content:  'What would you like to say?'
+    subject:  'Nieuw bericht van de Bazaar'
+    submit:   'Verzenden'
+    ajax:
+      sending:  'bezig ...'
+      sent:     'Bericht verzonden!'
+      error:    'Fout!'

@@ -16,7 +16,7 @@ head:
         <h3 class="h1">{{ page.price }}€</h3>
       </div>
       <div>
-        <button class="btn btn-primary mb1 bg-blue regular">
+        <button class="btn btn-primary mb1 bg-blue regular" data-modal="open">
           Kopen of bod doen
         </button>
       </div>
@@ -35,8 +35,6 @@ head:
 
   <div class="sm-col sm-col-12 product-description mt2">
     {{ page.content | remove_first:page.excerpt }}
-
-  
   </div>
 
 </div>

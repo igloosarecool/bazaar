@@ -8,10 +8,12 @@
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700,400italic|Roboto+Condensed|Roboto+Mono:400,400italic,500|Roboto+Slab:400,300,700&subset=latin' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>  
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
   {% for script in layout.head %}
     {% include {{ script }} %}
   {% endfor %}
+  <script type="text/javascript" src="{{"/assets/js/modalzinha.js" | prepend: site.baseurl }}" defer></script>
 </head>
