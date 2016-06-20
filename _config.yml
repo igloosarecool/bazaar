@@ -3,7 +3,7 @@ title: "Igloo's Bazaar"
 email: igloosarecool@me.com
 description: Tijd om mijn garage eens op te ruimen.
 baseurl: "/garage-sale" # the subpath of your site, e.g. /blog/
-url: "https://igloosarecool.github.io" # the base hostname & protocol for your site
+url: https://igloosarecool.github.io # the base hostname & protocol for your site
 twitter_username: igloosarecool
 github_username:  igloosarecool
 
