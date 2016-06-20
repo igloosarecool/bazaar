@@ -1,8 +1,8 @@
 <script>
     var contactForm = document.querySelector('form'),
     inputEmail = contactForm.querySelector('[name="email"]'),
-    subject = contactForm.querySelector('[name="subject"]')
-    textAreaMessage = contactForm.querySelector('[name="content"]'),
+    inputSubject = contactForm.querySelector('[name="_subject"]')
+    textAreaMessage = contactForm.querySelector('[name="message"]'),
     sendButton = contactForm.querySelector('[type="submit"]'),
     closeButton = contactForm.querySelector('[data-modal="close"]');
     sendButton.addEventListener('click', function(event){
@@ -13,7 +13,7 @@
       xhr.setRequestHeader("Accept", "application/json")
       xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
       xhr.send(
-        "subject=" + subject.value +
+        "_subject=" + inputSubject.value +
         "&email=" + inputEmail.value +
         "&message=" + textAreaMessage.value);
       xhr.onloadend = function (res) {
