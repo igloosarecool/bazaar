@@ -24,13 +24,13 @@ head:
     
     <p class="h6 italic">{{page.status}}</p>
     {{ page.excerpt }}
-    <ul>
-      <li>Merk: {{page.brand}}</li>
-      <li>Jaar: {{page.year}}</li>
-      <li>Maat: {{page.size}}</li>
-      <li>Kleur: {{page.color}}</li>
-      <li>Nieuwprijs: {{page.rrp}}€</li>
+    
+    {% if page.features != null %}<ul>
+      {% for feature in page.features %}
+      <li>{{feature[0]}}: {{feature[1]}}</li>
+      {% endfor %}
     </ul>
+    {% endif %}
   </div>
 
   <div class="sm-col sm-col-12 product-description mt2">

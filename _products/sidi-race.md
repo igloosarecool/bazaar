@@ -1,12 +1,13 @@
 ---
 name: Sidi Genius 5 Lorica Race schoenen
 price: "45,00"
-rrp: "169,95"
-year: 2008
-size: 43 (M)
-brand: Sidi
-color: zwart/zilver
-slug: sidi-race
+features:
+  nieuwprijs: "169,95"
+  jaar: 2008
+  maat: 43 (M)
+  merk: Sidi
+  kleur: zwart/zilver
+slug: sidi-genius-5
 status: gebruikt, in zeer goede staat
 image: https://dl.dropboxusercontent.com/u/54388277/cdn/images/sidi-genius.jpg
 layout: productdetails
