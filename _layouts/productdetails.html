@@ -6,9 +6,25 @@ head:
 ---
 <h2 class="product-name">{{ page.name }}</h2>
 
+{% assign items = page.images.size %}
+{% assign i = 1 %}
+
 <div class="product-details clearfix">
-  <div class="sm-col sm-col-6">
-    <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
+  <div class="gallery items-{{ items }} sm-col sm-col-6">
+    {% for i in (1..items) %}
+    <div id="item-{{i}}" class="control-operator"></div>
+    {% endfor %}
+    
+    {% for image in page.images %}
+    <figure class="item">
+      <img src="{{ image | prepend: site.src }}" alt="{{ page.name }}" class="thumbnail" />
+    </figure>
+    {% endfor %}
+    <div class="controls center">
+      {% for i in (1..items) %}
+      <a href="#item-{{i}}" class="control-button">•</a>
+      {% endfor %}
+    </div>
   </div>
   <div class="sm-col sm-col-6 product-description pl2">
     <div class="flex flex-baseline">

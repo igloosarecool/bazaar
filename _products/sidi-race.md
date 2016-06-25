@@ -9,8 +9,11 @@ features:
   kleur: zwart/zilver
 slug: sidi-genius-5
 status: gebruikt, in zeer goede staat
-image: https://dl.dropboxusercontent.com/u/54388277/cdn/images/sidi-genius.jpg
+images: 
+  - sidi-genius.jpg
+  - sidi-genius-5.jpg
 layout: productdetails
+category: 'vintage'
 ---
 Sidi's most popular road shoe. Conservative, yet stylish, with features that will make you think they flew in to measure your foot and make the shoe only for you.
 

@@ -27,3 +27,6 @@ text:
       sending:  'Bezig ...'
       sent:     'Bericht verzonden!'
       error:    'Fout!'
+
+# images source
+src: "https://dl.dropboxusercontent.com/u/54388277/cdn/images/"

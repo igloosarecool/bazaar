@@ -1,7 +1,7 @@
 <div class="product p2 border-box">
 
   <a class="product" href="{{ site.baseurl }}{{ product.url }}">
-    <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
+    <img src="{{ product.images[0] | prepend: site.src }}" alt="{{ product.name }}" class="thumbnail"/>
     <div class="flex flex-baseline">
       <div class="flex-auto">
         {{ product.name }}
