@@ -4,19 +4,22 @@ title: Campagnolo Daytona front derailleur
 price: "15,00"
 features:
   merk: Campagnolo
+  reeks: Daytona (Centaur)
   jaar: 2000
   maat: 9speed (braze-on)
   kleur: zilver
   gewicht: 93g
-  winkelprijs: "35-55 €"
+  winkelprijs: "± 35-55€"
 slug: sidi-genius-5
 status: gebruikt, in uitstekende staat
 images: 
   - daytona.jpg
+  - daytona-1.jpg
+  - daytona-3.jpg
 layout: productdetails
 categories: [vintage,onderdelen]
 links:
-  Cataloog: "http://www.retrobike.co.uk/gallery2/v/Manufacturer+Archive/Campagnolo+Archive/Campagnolo+Catalogues/2000+Campagnolo+Catalog.pdf.html"
+  Campagnolo cataloog 2000: "http://www.retrobike.co.uk/gallery2/v/Manufacturer+Archive/Campagnolo+Archive/Campagnolo+Catalogues/2000+Campagnolo+Catalog.pdf.html"
 ---
 Een mooie en lichte voorderailleur zonder roest of schade. Daytona werd in 2000 voorgesteld als de vervanger van de Athena groep. Door een naamconflict in de US met de "International Speedway Corp." werd deze groep al in 2002 hernoemd naar Centaur.
 
