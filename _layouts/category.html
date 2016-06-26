@@ -1,11 +1,20 @@
 ---
 layout: default
 ---
+{% assign cat = page.title | downcase %}
+<div class="sm-col-12">
+  <nav class="site-nav">
+  {% for category in site.text.categories %}
+    <a href="{{ site.baseurl }}/category/{{category}}" class="btn btn-outline mb1 blue {% if category == cat %}bg-silver{% endif %}">{{ category | capitalize }}</a>
+  {% endfor %}
+  </nav>
+</div>
+
 <h2>{{page.title}}</h2>
 
 <div class="products mxn2">
   <div class="clearfix">
-{% for product in site.products %}{% for category in product.categories %}{% assign cat = page.title | downcase %}{% if category == cat %}
+{% for product in site.products %}{% for category in product.categories %}{% if category == cat %}
     <div class="sm-col sm-col-6 md-col-4 lg-col-3">
       {% include product.html %}
     </div>{% endif %}{% endfor %}{% endfor %}

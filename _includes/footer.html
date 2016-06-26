@@ -17,10 +17,10 @@
     </div>
   </div>
 </footer>
-
-
+{% if page.layout == 'post' %}
 <div class="modal-wrapper" data-modal="wrapper">
   <div class="modal-content">
     {% include form.html %}
   </div>
 </div>
+{% endif %}

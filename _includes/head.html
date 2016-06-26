@@ -16,5 +16,7 @@
   {% for script in layout.head %}
     {% include {{ script }} %}
   {% endfor %}
+  {% if page.layout == 'post' %}
   <script type="text/javascript" src="{{"/assets/js/modalzinha.js" | prepend: site.baseurl }}" defer></script>
+  {% endif %}
 </head>
