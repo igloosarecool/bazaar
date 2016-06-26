@@ -4,7 +4,7 @@ head:
   - twittercard.html
   - ogtags.html
 ---
-<h2 class="product-name">{{ page.name }}</h2>
+<h2 class="product-name">{{ page.title }}</h2>
 
 {% assign items = page.images.size %}
 {% assign i = 1 %}
@@ -51,6 +51,13 @@ head:
 
   <div class="sm-col sm-col-12 product-description mt2">
     {{ page.content | remove_first:page.excerpt }}
+  </div>
+  
+  <div class="sm-col sm-col-12 product-description mt2">
+    <h2>Meer informatie</h2>
+    <ul>{% for link in page.links %}
+      <li><a href="{{link[1]}}">{{link[0]}}</a></li>{% endfor %}
+    </ul>
   </div>
 
 </div>

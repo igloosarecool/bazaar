@@ -1,8 +1,8 @@
 ---
-name: Sidi Genius 5 Lorica Race schoenen
+title: Sidi Genius 5 Lorica Race schoenen
 price: "45,00"
 features:
-  nieuwprijs: "169,95"
+  winkelprijs: "169,95"
   jaar: 2008
   maat: 43 (M)
   merk: Sidi
@@ -13,7 +13,7 @@ images:
   - sidi-genius.jpg
   - sidi-genius-5.jpg
 layout: productdetails
-category: 'vintage'
+categories: [vintage,kledij]
 ---
 Sidi's most popular road shoe. Conservative, yet stylish, with features that will make you think they flew in to measure your foot and make the shoe only for you.
 
@@ -25,4 +25,3 @@ Other Features: Padded Tongue w/fit relievers
 distributes pressure without bunching up, Molded plastic
 heel cup, Replaceable Heel Tab
 Color: Black Perforated Loricas
-

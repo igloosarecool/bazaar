@@ -3,15 +3,11 @@ layout: default
 ---
 <h2>{{page.title}}</h2>
 
-{% unless page.content == '' %}
-  <p>{{ page.content }}</p>
-{% endunless %}
-
-
-{% unless site.categories.[page.category] | size > 0 %}
-  <p>No posts in this category at this time.</p>
-{% endunless %}
-
-{% for product in site.categories.[page.category] %}
-{{ product.title }}
-{% endfor %}
+<div class="products mxn2">
+  <div class="clearfix">
+{% for product in site.products %}{% for category in product.categories %}{% assign cat = page.title | downcase %}{% if category == cat %}
+    <div class="sm-col sm-col-6 md-col-4 lg-col-3">
+      {% include product.html %}
+    </div>{% endif %}{% endfor %}{% endfor %}
+  </div>
+</div>

@@ -1,5 +1,6 @@
 ---
 layout: category
 title: Vintage
-categories: ['vintage']
+name: vintage
+categories: [vintage]
 ---

@@ -27,6 +27,7 @@ text:
       sending:  'Bezig ...'
       sent:     'Bericht verzonden!'
       error:    'Fout!'
+  categories: [vintage,onderdelen,kledij]
 
 # images source
 src: "https://dl.dropboxusercontent.com/u/54388277/cdn/images/"
