@@ -1,8 +1,7 @@
 ---
-type: page
+layout: default
 title: Hoe werkt het?
 slug: hoe-werkt-het
-layout: default
 ---
 Uitgevonden door de Franse wielrenner Eugène Christophe (°Parijs, 22/01/1885) en in 1925 verkocht aan Poutrait-Morin, nu Zéfal, die de clips nog steeds maken.
 
