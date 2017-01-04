@@ -13,6 +13,7 @@ features:
 slug: sidi-genius-5
 status: gebruikt, beetje roestvorming
 images: 
+  - christophe-0.jpg
   - christophe-1.jpg
 layout: productdetails
 categories: [vintage,onderdelen]
