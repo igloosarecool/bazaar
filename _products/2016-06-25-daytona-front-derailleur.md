@@ -1,7 +1,7 @@
 ---
 type: post
 title: Campagnolo Daytona front derailleur
-price: "15,00"
+price: "12,00"
 features:
   merk: Campagnolo
   reeks: Daytona (Centaur)

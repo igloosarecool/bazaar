@@ -1,7 +1,7 @@
 ---
 type: post
 title: Sidi Genius 5 Lorica Race schoenen
-price: "45,00"
+price: "40,00"
 features:
   merk: Sidi
   type: Genius 5
@@ -25,11 +25,6 @@ links:
 ---
 _"Sidi's most popular road shoe. Conservative, yet stylish, with features that will make you think they flew in to measure your foot and make the shoe only for you."_ - Sidi Marketing
 
-Features:
-Sole: Millenium II
-Closure: Soft Arch Compression Strap, Ultra SL Buckle,
-and two High Security Velcro straps
-Other Features: Padded Tongue w/fit relievers
-distributes pressure without bunching up, Molded plastic
-heel cup, Replaceable Heel Tab
-Color: Black Perforated Loricas
+Kenmerken volgens Sidi.
+Sole: Millenium II, Closure: Soft Arch Compression Strap, Ultra SL Buckle, and two High Security Velcro straps. 
+Other Features: Padded Tongue w/fit relievers, distributes pressure without bunching up, Molded plastic heel cup, Replaceable Heel Tab, Color: Black Perforated Loricas
