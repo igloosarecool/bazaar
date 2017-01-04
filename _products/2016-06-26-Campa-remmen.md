@@ -20,4 +20,4 @@ categories: [vintage,onderdelen]
 links:
   Campagnolo Catalogus 1995: http://www.retrobike.co.uk/gallery2/v/Manufacturer+Archive/Campagnolo+Archive/Campagnolo+Catalogues/1995+Campagnolo+Catalog.pdf.html
 ---
-
+Lichte single pivot remmen inclusief remblokjes. Doen hun werk.

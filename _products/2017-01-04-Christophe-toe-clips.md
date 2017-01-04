@@ -9,8 +9,8 @@ features:
   maat: medium
   kleur: chroom
   gewicht: 110g
-  winkelprijs: "11.80€"
-slug: sidi-genius-5
+  winkelprijs: "11,80€"
+slug: christophe-toe-clips
 status: gebruikt, beetje roestvorming
 images: 
   - christophe-0.jpg
