@@ -18,7 +18,7 @@ images:
   - sidi-genius-5.jpg
   - sidi-genius.jpg
 layout: productdetails
-categories: [vintage,kledij]
+categories: [kledij]
 links: 
   Sierra Trading Post: http://www.sierratradingpost.com/sidi-genius-5-cycling-shoes-universal-lorica-for-men~p~1903w/
   Bicycling (jan 2008): https://books.google.be/books?id=VcUDAAAAMBAJ&pg=PA114&dq=sidi+genius+5+lorica&hl=nl&sa=X&ved=0ahUKEwjLjqK-pMbNAhWMAsAKHWtQBskQ6AEIOzAB#v=onepage&q=sidi%20genius%205%20lorica&f=false
