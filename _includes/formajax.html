@@ -19,6 +19,7 @@
       xhr.onloadend = function (res) {
         if (res.target.status === 200){
           sendButton.innerHTML = '{{ site.text.contact.ajax.sent }}';
+          sendButton.setAttribute('disabled', 'true');
           closeButton.innerHTML = 'x Sluiten';
         }
         else {
