@@ -8,8 +8,8 @@ features:
   jaar: ca. 1980
   maat: medium
   kleur: chroom
-  gewicht: 93g
-  winkelprijs: "..."
+  gewicht: 110g
+  winkelprijs: "11.80€"
 slug: sidi-genius-5
 status: gebruikt, beetje roestvorming
 images: 
@@ -19,6 +19,5 @@ categories: [vintage,onderdelen]
 links:
   Product details Zefal: "http://www.zefal.com/en/other-accessories/214-christophe-steel-toe-clips.html"
   Velobase: "http://velobase.com/ViewComponent.aspx?ID=44453c93-544e-45d4-8493-0192a181c98b"
-  
 ---
 Medium clips voor klassieke pedalen. Chroom is licht aangetast door roestvorming, maar verder in goede staat.
