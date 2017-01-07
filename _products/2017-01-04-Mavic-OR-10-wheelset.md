@@ -6,6 +6,7 @@ features:
   merk: Mavic
   reeks: OR10
   jaar: ca. 1985
+  maat: 700c
   kleur: goud
   gewicht: 710g voor | 850 achter (excl. cassette en spanners)
   winkelprijs: ".."
