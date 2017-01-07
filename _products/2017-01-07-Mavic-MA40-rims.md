@@ -13,7 +13,7 @@ features:
 slug: mavic-ma-40
 status: NOS
 images: 
-  - placeholder.png
+  - placeholder.jpg
 layout: productdetails
 categories: [vintage,onderdelen]
 links:
