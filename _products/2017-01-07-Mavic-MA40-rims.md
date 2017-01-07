@@ -9,7 +9,7 @@ features:
   maat: 700C / 622-13
   kleur: zwart geanodiseerd
   gewicht: 460gr
-  winkelprijs: ".."
+  winkelprijs: "±45€/st"
 slug: mavic-ma-40
 status: NOS
 images: 
@@ -25,4 +25,4 @@ _"Smooth riding with the strength of a double wall and stainless eyelets and ext
 
 Duurzame, lage _box section_ velgen. Niet de lichtste velgen, maar wel stevig en comfortabel. Ideaal voor het kasseiwerk en cross. Ik rij er zelf mee zowel op mijn crossfiets als op de weg. Volgens Mavic: "A classic, a winner of many races and the confidence of Mavic fans the world over."
 
-Deze 32-gaats set uit de periode '96-'99 is NOS - dus nog niet gebruikt - en wordt verkocht als paar voor 20,00€.
+Deze 32-gaats set uit de periode '96-'99 is NOS - dus nog niet gebruikt - en wordt verkocht als paar voor 20,00€. Een koopje.
